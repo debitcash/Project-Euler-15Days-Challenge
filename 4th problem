@@ -1,0 +1,12 @@
+max=0
+for x in range (100,1000):
+  for y in range(100,1000):
+    z=x*y
+    s= str(z)
+    s1= s[0:int(len(s)/2)]
+    s2= s[int(len(s)/2.0):]
+    if s1 == s2[::-1]:
+      
+      if max <z:
+        max=z
+print (max)
