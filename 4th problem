@@ -6,7 +6,6 @@ for x in range (100,1000):
     s1= s[0:int(len(s)/2)]
     s2= s[int(len(s)/2.0):]
     if s1 == s2[::-1]:
-      
       if max <z:
         max=z
 print (max)
