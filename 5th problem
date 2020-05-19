@@ -1,0 +1,12 @@
+i=1 --------its 6 in the problem book
+sum1=0
+sum2=0
+while i <= 100:
+  sum1 = sum1 + i*i
+  i+= 1
+print(sum1)
+i=i-1
+while i >= 1:
+  sum2= sum2+ i
+  i= i-1
+print(sum2 * sum2-sum1)
