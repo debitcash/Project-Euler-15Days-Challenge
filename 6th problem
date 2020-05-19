@@ -1,0 +1,14 @@
+i=0 proiblem#5 on project euler
+n=20
+k=1
+while i<= 10000000000000000000000000000000000000000000000000000000000000000000000000:
+  if (n%k ==0):
+    k+=1
+    print (n)
+    i=i+1
+    if k==10:
+      print ('The number is:',n)
+      break
+  else:
+    n+=1
+    k=1 ca'nt figure out why i takes so long for the code to implement
