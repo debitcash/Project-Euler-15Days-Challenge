@@ -1,0 +1,14 @@
+i=0
+pnar=[]
+n=2
+while len(pnar)<10001:
+  c=2
+  while c <= n:
+    if (n%c==0) and c!=n:
+      break
+    elif n==c:
+      pnar.append(n)
+    c+=1
+  n+=1
+  i+=1
+print(pnar[-1])
