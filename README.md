@@ -1,2 +1,2 @@
 
-9th day 9 problems 96 lines
+9days streak with 9 problems completed (96 lines)
