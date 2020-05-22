@@ -1,2 +1,2 @@
 ![](/Trash/intropic.jpg)
-7th day 7 problems 79 lines
+8th day 8 problems 91 lines
