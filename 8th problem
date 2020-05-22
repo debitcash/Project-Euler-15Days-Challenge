@@ -1,0 +1,12 @@
+strn='///'
+i=0
+max=0
+while i<= (len(strn)-13):
+  num=strn[i:(i+13)]
+  product=1
+  for p in num:
+    product= product*int(p)
+  if product> max:
+    max= product
+  i=i+1
+print (max)
