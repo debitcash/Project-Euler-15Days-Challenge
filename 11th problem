@@ -1,0 +1,36 @@
+grid=///used this algorithms https://www.youtube.com/watch?v=w8is3T5KOfM ///
+maximum=0
+current = 1
+numbers_multiplied = 4
+
+for i in range(len(grid)):
+    for j in range(len(grid[i])-numbers_multiplied):
+        for k in range(numbers_multiplied):
+            current*= grid[i][j+k]
+        if current > maximum:
+            maximum = current
+        current=1    
+
+for i in range(len(grid)-numbers_multiplied):
+    for j in range(len(grid[i])):
+        for k in range(numbers_multiplied):
+            current*= grid[i+k][j]
+        if current > maximum:
+            maximum = current
+        current=1
+       
+for i in range(len(grid)-numbers_multiplied):
+    for j in range(len(grid[i])-numbers_multiplied):
+        for k in range(numbers_multiplied):
+            current*= grid[i+k][j+k]
+        if current > maximum:
+            maximum = current
+        current=1        
+        
+for i in range(len(grid)-numbers_multiplied):
+    for j in range(numbers_multiplied,len(grid[i])):
+        for k in range(numbers_multiplied):
+            current*= grid[i+k][j-k]
+        if current > maximum:
+            maximum = current
+        current=1       
