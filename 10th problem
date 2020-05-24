@@ -1,0 +1,13 @@
+prime=0
+n=2
+suma=0
+while n < 2000000:
+  c=2
+  while c <= n:
+      if (n%c==0) and c!=n:
+        break
+      elif n==c:
+        suma+=n
+      c+=1
+  n+=1
+print (suma)
