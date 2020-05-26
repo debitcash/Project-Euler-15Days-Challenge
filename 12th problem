@@ -1,0 +1,15 @@
+def ndiv(n):
+    i=0 
+    #n=28
+    k=0
+    while i in range(n):
+        i=i+1
+        if n%i==0:
+            k+=1
+    return(k)
+tr=0
+for l in range(1,100000000000000000000000):
+    tr = tr+l
+    if ndiv(tr)==500:
+        print('the number is', tr)
+        break
