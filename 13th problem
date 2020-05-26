@@ -1,0 +1,4 @@
+a=/// https://www.youtube.com/watch?v=FQdTmk-o-fM  ///
+total= sum(a)
+total= str(total)
+print(total[0:10])
